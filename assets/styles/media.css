@@ -1,0 +1,8 @@
+@media (max-width: 460px) {
+    .timer__btn {
+        margin: 10px 60px;        
+        width: 200px;
+        height: 75px;
+        border-radius: 40px;
+    }
+}
