@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242837;
+    color: #fff;
+  }
+  button {
+    background: none;
+    border:none;
+    color: #fff;
+  }
+  .timer {
+    text-align: center;
+  }
+  .timer__time {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  .timer__btn {
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: .6s;
+  }
+  .timer__btn:hover {
+    opacity: .7;
+  }
+  .timer__btn_success {
+    background-color: #29a729;
+  }
+  .timer__btn_warn {
+    background-color: #db8f00;
+  }
+  .timer__btn_danger {
+    background-color: #ff0000;
+  }
